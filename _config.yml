@@ -18,8 +18,6 @@ theme: # leave it empty
 # social
 author: tsoleary
 image: /thumbnail-jumbo.png
-twitter:
-  username: lorepirri
 
 plugins:
   - jekyll-target-blank

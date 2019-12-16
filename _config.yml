@@ -1,3 +1,8 @@
 theme: jekyll-theme-cayman
 title: "Thomas S. O'Leary"
 description: a website to host projects
+docs_list_title: Docs
+docs:
+
+- title: publications
+  url: publications/index.Rmd

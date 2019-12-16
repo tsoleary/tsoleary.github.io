@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Projects
-tagline: some links to ongoing projects
+tagline: Some links to ongoing projects
 permalink: /projects.html
 ref: projects
 order: 1

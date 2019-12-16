@@ -9,6 +9,11 @@ order: 1
 
 ## Frontiers Project
 
-This is a [now page](https://nownownow.com/about), and it was inspired by [the /now movement](https://sivers.org/nowff). If you have your own site, [you should make one](https://nownownow.com/about), too.
+[Potential Figures & Analysis](tso_analysis.html)
+
+[RNAseq Quality Control & Supplemental Figures](whole_body_heat_cold_shock_report.html)
+
+
+
 
 [Go to the Home Page]({{ '/' | absolute_url }})

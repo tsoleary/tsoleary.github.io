@@ -16,4 +16,7 @@ order: 1
 
 
 
+
+#### Link Home 
+
 [Go to the Home Page]({{ '/' | absolute_url }})

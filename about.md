@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-tagline: A few more words about this theme
+tagline: PhD Student in the Lockwood Lab at the University of Vermont
 permalink: /about.html
 ref: about
 order: 0

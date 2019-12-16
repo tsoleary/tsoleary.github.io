@@ -25,4 +25,4 @@ plugins:
 target-blank:
     rel: nofollow
 
-header_page_refs: ['about', 'now', 'publications', 'contact']
+header_page_refs: ['about', 'projects', 'publications', 'contact']

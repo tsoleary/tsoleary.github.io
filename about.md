@@ -1,13 +1,13 @@
 ---
 layout: page
 title: About
-tagline: PhD Student in the Lockwood Lab at the University of Vermont
+tagline: PhD student in the Lockwood Lab at the University of Vermont
 permalink: /about.html
 ref: about
 order: 0
 ---
 
-![image](https://avatars1.githubusercontent.com/u/46583297?s=400&u=6b21ff0e8eef76f218073d585cea45a254af0c65&v=4) {:style="float: right;margin-right: 7px;margin-top: 7px;"}
+<img align="left" src="https://avatars1.githubusercontent.com/u/46583297?s=400&u=6b21ff0e8eef76f218073d585cea45a254af0c65&v=4">
 
 [CV](CV/tsoleary_cv_2019.pdf)
 

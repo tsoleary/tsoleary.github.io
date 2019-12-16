@@ -9,7 +9,7 @@ order: 1
 
 ## Frontiers Project
 
-[Potential Figures & Analysis](tso_analysis.html)
+<a href="tso_analysis.html" target="_blank">Potential Figures & Analysis</a>
 
 [RNAseq Quality Control & Supplemental Figures](whole_body_heat_cold_shock_report.html)
 

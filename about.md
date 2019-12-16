@@ -7,7 +7,7 @@ ref: about
 order: 0
 ---
 
-<img align="left" src="https://avatars1.githubusercontent.com/u/46583297?s=400&u=6b21ff0e8eef76f218073d585cea45a254af0c65&v=4">
+<img style="float: left; padding-right: 10px;" src="https://avatars1.githubusercontent.com/u/46583297?s=400&u=6b21ff0e8eef76f218073d585cea45a254af0c65&v=4">
 
 [CV](CV/tsoleary_cv_2019.pdf)
 

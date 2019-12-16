@@ -4,7 +4,7 @@ title: Projects
 tagline: some links to ongoing projects
 permalink: /projects.html
 ref: projects
-order: 2
+order: 1
 ---
 
 ## Frontiers Project

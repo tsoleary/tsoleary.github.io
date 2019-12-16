@@ -11,9 +11,7 @@ order: 1
 
 <a href="tso_analysis.html" target="_blank">Potential Figures & Analysis</a>
 
-[RNAseq Quality Control & Supplemental Figures](whole_body_heat_cold_shock_report.html)
-
-
+<a href="whole_body_heat_cold_shock_report.html" target="_blank">RNAseq Quality Control & Supplemental Figures</a>
 
 
 

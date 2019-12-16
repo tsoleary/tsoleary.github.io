@@ -1,3 +1,12 @@
+---
+layout: page
+title: Publications
+tagline: ""
+permalink: /now.html
+ref: publications
+order: 2
+---
+
 # Publications
 
 O’Leary, T. S., Snyder, J., Sadayappan, S., Day, S. M., & Previs, M. J. (2019). MYBPC3 truncation mutations enhance actomyosin contractile mechanics in human hypertrophic cardiomyopathy. Journal of Molecular and Cellular Cardiology, 127, 165–173. 

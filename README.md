@@ -1,5 +1,5 @@
 ## Frontiers Project
 
-Link to [RNASeq data](tso_analysis.html).
+[Analysis & possible figures](tso_analysis.html).
 
-Link to [RNASeq quality control](whole_body_heat_cold_shock_report.html).
+[RNASeq QC & Supplemental Information](whole_body_heat_cold_shock_report.html).

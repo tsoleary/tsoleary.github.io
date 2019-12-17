@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Contact
-tagline: Please feel free to reach out via email
+tagline: ""
 ref: contact
 order: 3
 ---
 
-Contact me at tsoleary@uvm.edu.
+Please feel free to reach out via email. You can contact me at tsoleary@uvm.edu.
 
 [Go to the Home Page]({{ '/' | absolute_url }})

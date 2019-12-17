@@ -8,7 +8,7 @@ order: 2
 ---
 ## Published 
 
-**O’Leary, T. S.**, Snyder, J., Sadayappan, S., Day, S. M., & Previs, M. J. (2019). MYBPC3 truncation mutations enhance actomyosin contractile mechanics in human hypertrophic cardiomyopathy. _Journal of Molecular and Cellular Cardiology, 127_, 165–173. <a href="1-s2.0-S0022282818311313-main.pdf" target="_blank"> `[.pdf]` </a>
+**O’Leary, T. S.**, Snyder, J., Sadayappan, S., Day, S. M., & Previs, M. J. (2019). MYBPC3 truncation mutations enhance actomyosin contractile mechanics in human hypertrophic cardiomyopathy. _Journal of Molecular and Cellular Cardiology, 127_, 165–173. <a href="oleary_et_al_2019.pdf" target="_blank"> `[.pdf]` </a>
 
 Li, A., Nelson, S. R., Rahmanseresht, S., Braet, F., Cornachione, A. S., Previs, S., **O’Leary, T.S.**, ... Warshaw, D. M. (2019). Skeletal MyBP-C isoforms tune the molecular contractility of divergent skeletal muscle systems. _Proceedings of the National Academy of Sciences, 116_(43), 21882–21892. <a href="amy_li_pnas.pdf" target="_blank"> `[.pdf]` </a>
 

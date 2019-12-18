@@ -25,8 +25,7 @@ This project aims to connect the genetic architecture of thermal tolerance in _D
 
 #### Cold
 
-<a href="projects/tso_analysis.html" target="_blank" >Potential Figures & Analysis</a></li>
-<li><a href = "projects/frontiers/cold/Project_wg_result1576701776/Project_wg_result1576701776_GSEA/Report_wg_result1576701776.html" target="_blank">test</a>
+<a href = "projects/frontiers/cold/Project_wg_result1576701776/Project_wg_result1576701776_GSEA/Report_wg_result1576701776.html" target="_blank">test</a>
 
 # Course work
 

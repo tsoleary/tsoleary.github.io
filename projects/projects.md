@@ -22,7 +22,7 @@ This project aims to connect the genetic architecture of thermal tolerance in _D
 
 #### Hot
 
-<a href = "Project_wg_result1576701776/Report_wg_result1576701776.html" target="_blank">test</a>
+<a href = "Project_wg_result1576701776/Report_wg_result1576701776.html" target="_blank">test2</a>
 
 #### Cold
 

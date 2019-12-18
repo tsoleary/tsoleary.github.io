@@ -11,12 +11,22 @@ order: 1
 
 ## Frontiers Paper
 
-This project aims to connect the genetic architecture of thermal tolerance in _Drosophila melanogaster_ with gene expression. 
+This project aims to connect the genetic architecture of thermal tolerance in _Drosophila melanogaster_ with gene expression.
 
 <ul style="list-style-type:circle;">
   <li><a href="projects/tso_analysis.html" target="_blank" >Potential Figures & Analysis</a></li>
   <li><a href = "projects/whole_body_heat_cold_shock_report.html" target="_blank">RNAseq Quality Control & Supplemental Figures</a></li>
 </ul>  
+
+### GSEA
+
+#### Hot
+
+
+#### Cold
+
+<a href="projects/tso_analysis.html" target="_blank" >Potential Figures & Analysis</a></li>
+<li><a href = "projects/frontiers/cold/Project_wg_result1576701776/Project_wg_result1576701776_GSEA/Report_wg_result1576701776.html" target="_blank">test</a>
 
 # Course work
 

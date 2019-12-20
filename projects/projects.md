@@ -18,14 +18,6 @@ This project aims to connect the genetic architecture of thermal tolerance in _D
   <li><a href = "projects/whole_body_heat_cold_shock_report.html" target="_blank">RNAseq Quality Control & Supplemental Figures</a></li>
 </ul>  
 
-### GSEA
-
-#### Hot
-
-<a href = "Report_wg_result1576701776.html" target="_blank">test3</a>
-
-#### Cold
-
 # Course work
 
 ## Multi-strain vaccine selection on a genotype network

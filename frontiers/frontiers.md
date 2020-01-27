@@ -15,6 +15,7 @@ This project aims to connect the genetic architecture of thermal tolerance in _D
 <ul style="list-style-type:circle;">
   <li><a href="https://tsoleary.github.io/rna_seq/cahan/scripts/tso_analysis.html" target="_blank" >Potential Figures & Analysis</a></li>
   <li><a href = "https://tsoleary.github.io/rna_seq/cahan/results/whole_body_heat_cold_shock_report.html" target="_blank">RNAseq Quality Control & Supplemental Figures</a></li>
+    <li><a href = "https://tsoleary.github.io/rna_seq/cahan/writing/methods_tso.html" target="_blank">Thomas' methods incomplete draft </a></li>
 </ul>  
 
 

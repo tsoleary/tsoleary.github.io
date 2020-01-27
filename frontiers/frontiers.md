@@ -2,7 +2,7 @@
 layout: page
 title: Frontiers paper
 tagline: ""
-permalink: /projects.html
+permalink: /frontiers.html
 ref: frontiers
 order: 1
 ---

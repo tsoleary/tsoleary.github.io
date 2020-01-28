@@ -7,18 +7,20 @@ ref: frontiers
 order: 1
 ---
 
-# Frontiers Paper
----
-
-This project aims to connect the genetic architecture of thermal tolerance in _Drosophila melanogaster_ with gene expression.
+# Links
 
 <ul style="list-style-type:circle;">
-  <li><a href="https://tsoleary.github.io/rna_seq/cahan/scripts/tso_analysis.html" target="_blank" >Potential Figures & Analysis</a></li>
-  <li><a href = "https://tsoleary.github.io/rna_seq/cahan/results/whole_body_heat_cold_shock_report.html" target="_blank">RNAseq Quality Control & Supplemental Figures</a></li>
-    <li><a href = "https://tsoleary.github.io/rna_seq/cahan/writing/methods_tso.html" target="_blank">Thomas' methods incomplete draft </a></li>
-</ul>  
+  <li><a href = "https://tsoleary.github.io/rna_seq/cahan/results/final_figs.html" target="_blank">Final figure sketch</a></li>
+  <li><a href = "https://tsoleary.github.io/rna_seq/cahan/scripts/tso_analysis.html" target="_blank" >Exploratory figures and info</a></li>
+  <li><a href = "https://tsoleary.github.io/rna_seq/cahan/results/whole_body_heat_cold_shock_report.html" target="_blank">RNAseq quality control & supplemental figures</a></li>
+  <li><a href = "https://tsoleary.github.io/rna_seq/cahan/writing/methods_tso.html" target="_blank">TSO methods </a></li>
+</ul>
 
+# GSEA and ORA
 
+<ul style="list-style-type:circle;">
+  <li><a href="https://tsoleary.github.io/rna_seq/cahan/results/GSEA_ORA.zip" download>Download GSEA and ORA results</a></li>
+</ul>
 
 ---
 

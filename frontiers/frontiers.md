@@ -20,6 +20,10 @@ order: 1
 
 <ul style="list-style-type:circle;">
   <li><a href="https://tsoleary.github.io/rna_seq/cahan/results/GSEA_ORA.zip" download>Download GSEA and ORA results</a></li>
+  <ul>
+    <li>Gene set enrichment analysis on the differentially expressed genes (padj < 0.01) ranked by log fold-change</li>
+    <li>Over representation analysis Top GWAS genes (AvgMixedPval < 10^-4).</li>
+  </ul>
 </ul>
 
 ---

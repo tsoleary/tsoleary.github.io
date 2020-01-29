@@ -16,11 +16,11 @@ order: 1
   <li><a href = "https://tsoleary.github.io/rna_seq/cahan/writing/methods_tso.html" target="_blank">TSO methods</a></li>
   <li><a href="https://tsoleary.github.io/rna_seq/cahan/results/ORA.zip" download>Download ORA results</a></li>
   <ul>
-    <li>Over represenation analysis: differentially expressed genes</li>
+    <li>Over represenation analysis: differentially expressed genes (padj < 0.01)</li>
     <ul>
-      <li>All genes (padj < 0.01)</li>
-      <li>Upregulated genes (padj < 0.01)</li>
-      <li>Downregulated genes (padj < 0.01)</li>
+      <li>All genes</li>
+      <li>Upregulated genes</li>
+      <li>Downregulated genes</li>
     </ul>
     <li>Over representation analysis: top GWAS genes (AvgMixedPval < 10<sup>-4</sup>)</li>
   </ul>

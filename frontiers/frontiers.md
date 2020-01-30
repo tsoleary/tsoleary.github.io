@@ -14,7 +14,7 @@ order: 1
   <li><a href = "https://tsoleary.github.io/rna_seq/cahan/results/final_figs.html" target="_blank">Final figure sketch</a></li>
   <li><a href = "https://tsoleary.github.io/rna_seq/cahan/results/whole_body_heat_cold_shock_report.html" target="_blank">RNAseq quality control & supplemental figures</a></li>
   <li><a href = "https://tsoleary.github.io/rna_seq/cahan/writing/methods_tso.html" target="_blank">TSO methods</a></li>
-  <li><a href="https://tsoleary.github.io/rna_seq/cahan/results/ORA.zip" download>Download ORA results</a></li>
+  <li><a href="https://tsoleary.github.io/rna_seq/cahan/results/ORA.zip" download>Download ORA results</a> &mdash; updated to include all gene sets with an FDR < 0.1</li>
   <ul>
     <li>Over represenation analysis: differentially expressed genes (padj < 0.01)</li>
     <ul>

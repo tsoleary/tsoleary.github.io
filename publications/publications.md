@@ -8,7 +8,7 @@ order: 2
 ---
 ## Published
 
-Helms, A.S., Tang, V.T., **O’Leary, T.S.**, Friedline S., Wauchope, M., Arora A.,  … Day S.M. (2020). Effects of MYBPC3 loss of function mutations preceding hypertrophic cardiomyopathy. _Journal of Clinical Insights, 5_(2) e133782. <a href="publications/helm_et_al_2020.pdf" target="_blank"> `[.pdf]` </a> 
+Helms, A.S., Tang, V.T., **O’Leary, T.S.**, Friedline S., Wauchope, M., Arora A.,  … Day S.M. (2020). Effects of MYBPC3 loss of function mutations preceding hypertrophic cardiomyopathy. _Journal of Clinical Insights, 5_(2) e133782. <a href="publications/helms_et_al_2020.pdf" target="_blank"> `[.pdf]` </a> 
 
 **O’Leary, T. S.**, Snyder, J., Sadayappan, S., Day, S. M., & Previs, M. J. (2019). MYBPC3 truncation mutations enhance actomyosin contractile mechanics in human hypertrophic cardiomyopathy. _Journal of Molecular and Cellular Cardiology, 127_, 165–173. <a href="publications/oleary_et_al_2019.pdf" target="_blank"> `[.pdf]` </a>
 

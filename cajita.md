@@ -1,10 +1,8 @@
 ---
-layout: page
 title: Thomas' _Cajita_ Project
 tagline: my virtual _cajita_
 permalink: /cajita.html
 ref: frontiers
-order: 1
 ---
 
 ## A picture of my _cajita_
@@ -12,10 +10,10 @@ order: 1
 
 
 ### Seymour Glass
-    The cutest, saddest, most sympathetic stuffed dog in the world. This little guy comforted my grandmother when her sister died. Mimi spoiled me like crazy. I was
+The cutest, saddest, most sympathetic stuffed dog in the world. This little guy comforted my grandmother when her sister died. Mimi spoiled me like crazy. I was
 
 ### Juggling
-    I remember watching my dad juggle my three beanie babies when I was a kid and just being completely mesmerized with how he was doing it. I taught myself to juggle recently and it was quite fun failing and learning along the way
+I remember watching my dad juggle my three beanie babies when I was a kid and just being completely mesmerized with how he was doing it. I taught myself to juggle recently and it was quite fun failing and learning along the way
 
 ### Golf ball and a picture of my dad
 

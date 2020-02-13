@@ -3,6 +3,7 @@ title: Thomas' _Cajita_ Project
 tagline: my virtual _cajita_
 permalink: /cajita.html
 ref: frontiers
+theme: lumen
 ---
 
 ## A picture of my _cajita_

@@ -2,7 +2,7 @@
 layout: page
 title: Thomas' _Cajita_ Project
 tagline: my virtual _cajita_
-permalink: /frontiers.html
+permalink: /cajita.html
 ref: frontiers
 order: 1
 ---

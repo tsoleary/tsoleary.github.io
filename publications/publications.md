@@ -8,7 +8,7 @@ order: 2
 ---
 ## Published
 
-<div style=“text-indent: -36px; padding-left: 36px;”>
+<div class="a">
 
 <p>Rahmanseresht, S., Lee, K. H.,  <b>O’Leary, T.S.</b>, McNamara,  J. W., Sadayappan, S.,  Robbins, J., Warshaw., D. M., Craig, R., & M. J. Previs. (2021). The N Terminus of Myosin-Binding Protein C Extends toward Actin Filaments in Intact Cardiac Muscle. <i>The Journal of General Physiology, 153</i> (3). <a href="publications/sheema_et_al_2021.pdf" target="_blank"> [.pdf] </a></p>
 

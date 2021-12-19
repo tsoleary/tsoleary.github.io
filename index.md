@@ -10,6 +10,8 @@ layout: home
 
 <img style="float: left; padding-right: 25px;" src="https://tsoleary.github.io/images/dmel_adult.png">
 
+<img src="https://tsoleary.github.io/images/dmel_adult.png" width="400"/>
+
 <img style="float: right; padding-left: 25px;" src="https://tsoleary.github.io/images/embryo.png">
 
 <img style="float: left; padding-right: 25px;" src="https://avatars1.githubusercontent.com/u/46583297?s=400&u=6b21ff0e8eef76f218073d585cea45a254af0c65&v=4">

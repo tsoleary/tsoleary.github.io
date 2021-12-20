@@ -12,5 +12,3 @@ Thomas S. O'Leary <br>
 Burlington, VT 05401
 
 Please feel free to reach out via email. You can contact me at tsoleary@uvm.edu.
-
-[Go to the Home Page]({{ '/' | absolute_url }})

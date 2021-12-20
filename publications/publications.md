@@ -9,7 +9,7 @@ order: 2
 
 <div class="a">
 
-<p>Tsan, Y.-C., DePalma, S. J., Zhao, Y.-T., Capilnasiu, A., Wu, Y.-W., … O’Leary, T. S., ...Helms, A. S. (2021). Physiologic biomechanics enhance reproducible contractile development in a stem cell derived cardiac muscle platform. Nature Communications, 12 (1), 6167. <a href="publications/tsan_et_al_2021.pdf" target="_blank"> [.pdf] </a><a href="https://doi.org/10.1038/s41467-021-26496-1" target="_blank"> [doi] </a></p>
+<p>Tsan, Y.-C., DePalma, S. J., Zhao, Y.-T., Capilnasiu, A., Wu, Y.-W., … <b>O’Leary, T. S.</b>, ...Helms, A. S. (2021). Physiologic biomechanics enhance reproducible contractile development in a stem cell derived cardiac muscle platform. Nature Communications, 12 (1), 6167. <a href="publications/tsan_et_al_2021.pdf" target="_blank"> [.pdf] </a><a href="https://doi.org/10.1038/s41467-021-26496-1" target="_blank"> [doi] </a></p>
 
 <p>Rahmanseresht, S., Lee, K. H.,  <b>O’Leary, T.S.</b>, McNamara,  J. W., Sadayappan, S.,  Robbins, J., Warshaw., D. M., Craig, R., & M. J. Previs. (2021). The N Terminus of Myosin-Binding Protein C Extends toward Actin Filaments in Intact Cardiac Muscle. <i>The Journal of General Physiology, 153</i> (3). <a href="publications/sheema_et_al_2021.pdf" target="_blank"> [.pdf] </a><a href="http://dx.doi.org/10.1085/jgp.202012726" target="_blank"> [doi] </a></p>
 

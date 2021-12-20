@@ -12,13 +12,9 @@ layout: home
 
 I am a PhD student in the  [Lockwood Lab](https://lockwoodlab.weebly.com/) at the University of Vermont. I am currently studying molecular mechanisms of heat adaptation in _Drosophila melanogaster_, with an emphasis on early embryonic development and the maintenance of redox homeostasis.
 
-I received a B.A. in Biology from the University of Vermont in 2016. After graduation, I worked as a lab technician specializing in DNA and RNA sequencing for Charles River Labs in Philadelphia. I spent a year and a half as a research technician in the Previs Lab in the Dept. of Molecular Physiology at UVM, using proteomics to study the role of MyBP-C in hypertrophic cardiomyopathy.
+I received a B.A. in Biology from the University of Vermont in 2016. After graduation, I worked as a lab technician specializing in DNA and RNA sequencing for Charles River Labs in Philadelphia, PA. I spent a year and a half as a research technician in the Previs Lab in the Dept. of Molecular Physiology at UVM, using proteomics to study the role of MyBP-C in hypertrophic cardiomyopathy.
 
 <div class="row">
-  <div class="column">
     <img src="https://tsoleary.github.io/images/dmel_adult.png" alt="fly" style="width:50%">
-  </div>
-  <div class="column">
     <img src="https://tsoleary.github.io/images/embryo.png" alt="embryo" style="width:10%">
-  </div>
 </div>

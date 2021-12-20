@@ -10,7 +10,7 @@ order: 1
 # Table of Contents
 {:.no_toc}
 
-1. ToC
+* ToC
 {:toc}
 
 ---
@@ -39,9 +39,9 @@ Hypertrophic cardiomyopathy (HCM) is a disease of the heart where the muscle in 
 
 ## Sarcomeric protein turnover
 
-More recent work has investigated the relative turnover rates of sarcomeric proteins _in vivo_ with mice fed a diet of heavy isotope labeling of an amino acid (D3-Leu).
-
 <img src="https://tsoleary.github.io/projects_page/mybpc_turnover.png" alt="fly" style="width:45%">
+
+More recent work has investigated the relative turnover rates of sarcomeric proteins _in vivo_ with mice fed a diet of heavy isotope labeling of an amino acid (D3-Leu).
 
 # Graduate school course work
 
@@ -57,4 +57,4 @@ We used an evolutionary algorithm on an _Influenza A_ genotype network to determ
 
 <img src="https://tsoleary.github.io/projects_page/season_dom.png" style="width:75%">
 
-What sort of mechanisms maintain polymorphism within a population? Previous work has shown that seasonal changes in the dominance of an allele can stably maintain polymorphism within a population (a href="http://dx.doi.org/10.1073/pnas.1702994114" target="_blank" >Wittmann et al. 2017</a></li>). We created a similar model to explore the role genetic linkage may play in maintaining polymorphism in this context. A rough draft of our results can be found <a href = "projects_page/season_adapt.pdf" target="_blank">here</a>. Open source code for the model can be found on <a href = "https://github.com/tsoleary/season_adapt" target="_blank">GitHub</a>.
+What sort of mechanisms maintain polymorphism within a population? Previous work has shown that seasonal changes in the dominance of an allele can stably maintain polymorphism within a population (<a href="http://dx.doi.org/10.1073/pnas.1702994114" target="_blank">Wittmann et al. 2017</a>). We created a similar model to explore the role genetic linkage may play in maintaining polymorphism in this context. A rough draft of our results can be found <a href = "projects_page/season_adapt.pdf" target="_blank">here</a>. Open source code for the model can be found on <a href = "https://github.com/tsoleary/season_adapt" target="_blank">GitHub</a>.

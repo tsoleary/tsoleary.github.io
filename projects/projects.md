@@ -5,6 +5,7 @@ tagline: ""
 permalink: /projects.html
 ref: projects
 order: 1
+toc: true
 ---
 
 # Recent research
@@ -28,11 +29,10 @@ ADD FIGURES
 
 ## Hypertrophic cardiomyopathy
 
-![](projects/mybpc_sarc.png)
+<img src="https://tsoleary.github.io/projects/mybpc_sarc.png" alt="fly" style="width:50%">
 
 
-
-![](projects/mybpc_ind.png)
+<img src="https://tsoleary.github.io/projects/mybpc_ind.png" alt="fly" style="width:50%">
 
 # Graduate school course work
 ---

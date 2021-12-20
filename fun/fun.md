@@ -19,25 +19,25 @@ order: 3
 
 ## World Record Progression
 
+<img src="https://tsoleary.github.io/fun/final_runner_fig.pdf" style="width:100%">
 
+Andrea Allen, Mahalia Clark, Alison Hall, & I created a <a href="https://tsoleary.github.io/track/world_record_progression/athletics_world_record_progression.html" target="_blank">website</a> to visualize the progression of world records overtime.
 
 # Data visualization and coding in R
 
+I created a quick <a href="https://tsoleary.github.io/play/Lockwood_Lab/tidyverse_intro.html" target="_blank">tutorial</a> for my lab mates to learn the tidyverse.
 
+## Shiny apps
 
-# Shiny apps
+Below are a couple of examples of quick and fun shiny apps I created.
 
-Below are a few examples of shiny apps I have created
-
-I have a few others on the way for exploring gene expression data and Track & Field data.
-
-## Baseball historic data
+### Baseball historic data
 
 <iframe height="600" width="100%" frameborder="no" src="https://tsoleary.shinyapps.io/baseball/"> </iframe>
 
 Check out the <a href="https://tsoleary.shinyapps.io/baseball/" target="_blank">full website</a> and the <a href="https://github.com/tsoleary/play/tree/master/baseball" target="_blank">code</a> that built it.
 
-## Where in the US should I live?
+### Where in the US should I live?
 
 <iframe height="800" width="100%" frameborder="no" src="https://tsoleary.shinyapps.io/shiny/"> </iframe>
 

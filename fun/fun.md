@@ -17,17 +17,31 @@ order: 3
 
 # Running
 
+## World Record Progression
+
+
+
 # Data visualization and coding in R
 
 
 
 # Shiny apps
 
-## Baseball
+Below are a few examples of shiny apps I have created
 
-<iframe height="400" width="100%" frameborder="no" src="https://tsoleary.shinyapps.io/baseball/"> </iframe>
+I have a few others on the way for exploring gene expression data and Track & Field data.
 
-## Where in the world should I live
+## Baseball historic data
+
+<iframe height="600" width="100%" frameborder="no" src="https://tsoleary.shinyapps.io/baseball/"> </iframe>
+
+Check out the <a href="https://tsoleary.shinyapps.io/baseball/" target="_blank">full website</a> and the <a href="https://github.com/tsoleary/play/tree/master/baseball" target="_blank">code</a> that built it.
+
+## Where in the US should I live?
+
+<iframe height="800" width="100%" frameborder="no" src="https://tsoleary.shinyapps.io/shiny/"> </iframe>
+
+Check out the <a href="https://tsoleary.shinyapps.io/shiny/" target="_blank">full website</a> and the <a href="https://github.com/tsoleary/gym_class/tree/main/us_counties/shiny" target="_blank">code</a> that built it.
 
 # Biology Social Committee
 
@@ -35,7 +49,7 @@ order: 3
 
 As part of the Biology Social Committee's initiative to foster an inclusive atmosphere within the UVM Biology Department, we had faculty, students, and staff submit the reasons they had to be thankful in November 2020 — and we used those responses to create a real and virtual Gratitude Tree.
 
-<iframe src="https://streaming.uvm.edu/media/embed/29586/" width="640" height="400" frameborder="0" allowfullscreen></iframe>
+<iframe height="600" width="100%" frameborder="no" src="https://streaming.uvm.edu/media/embed/29586/" frameborder="0" allowfullscreen></iframe>
 
 Thanksgiving is traditionally a time to take a step back from the day-to-day grind and take a mental inventory of the things for which we are grateful: our family, friends, colleagues, homes, & health. This is especially important in a brutal year like this one – we still have so much to be thankful for.
 

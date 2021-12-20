@@ -5,8 +5,9 @@ tagline: ""
 permalink: /projects.html
 ref: projects
 order: 1
-toc: true
 ---
+
+{:toc}
 
 # Recent research
 ---

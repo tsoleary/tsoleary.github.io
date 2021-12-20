@@ -75,11 +75,10 @@
         <section class="page-header">
             <h1 class="project-name">{{ page-title }}</h1>
             <h2 class="project-tagline">{{ page-tagline }}</h2>
-            {% if page.layout == 'home' and site.github.is_project_page %}
-            <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
-
-            {% if site.show_downloads %}
+            {% if page.layout == 'home' %}
             <a href="https://tsoleary.github.io/CV/tsoleary_cv_2022.pdf" class="btn">CV</a>
+            {% if site.show_downloads %}
+
             {% endif %}
             {% endif %}
             <!-- Post tagline -->

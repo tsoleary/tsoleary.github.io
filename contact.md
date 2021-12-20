@@ -3,7 +3,7 @@ layout: page
 title: Contact
 tagline: ""
 ref: contact
-order: 3
+order: 4
 ---
 
 Thomas S. O'Leary <br>

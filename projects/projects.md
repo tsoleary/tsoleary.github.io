@@ -7,7 +7,7 @@ ref: projects
 order: 1
 ---
 
-# Research
+# Recent research
 ---
 
 ## Frontiers in Genetics
@@ -16,25 +16,25 @@ This project aimed to connect the genetic architecture of thermal tolerance in _
 
 This work resulted in a publication in _Frontiers in Genetics_ titled "Integrating GWAS and transcriptomics to identify the molecular underpinnings of thermal stress responses in _Drosophila melanogaster_." Check it out <a href="publications/lecheta_et_al_2020.pdf" target="_blank"> here</a>.
 
+ADD FIGURES
+
 <ul style="list-style-type:circle;">
   <li><a href="https://tsoleary.github.io/rna_seq/cahan/scripts/tso_analysis.html" target="_blank" >Supplementary Figures & Analysis</a></li>
   <li><a href = "https://tsoleary.github.io/rna_seq/cahan/results/whole_body_heat_cold_shock_report.html" target="_blank">RNAseq Quality Control & Figures</a></li>
 </ul>  
 
-# Biology Social Committee
+# Post-undergraduate research
 ---
 
-## Gratitude in Science
+## Hypertrophic cardiomyopathy
 
-As part of the Biology Social Committee's initiative to foster an inclusive atmosphere within the UVM Biology Department, we had faculty, students, and staff submit the reasons they had to be thankful in November 2020 — and we used those responses to create a real and virtual Gratitude Tree.
+![](projects/mybpc_sarc.png)
 
-<iframe src="https://streaming.uvm.edu/media/embed/29586/" width="640" height="480" frameborder="0" allowfullscreen></iframe>
 
-Thanksgiving is traditionally a time to take a step back from the day-to-day grind and take a mental inventory of the things for which we are grateful: our family, friends, colleagues, homes, & health. This is especially important in a brutal year like this one – we still have so much to be thankful for.
 
-This activity is an opportunity for us to reflect collectively as a department. Success in science, as in life, is rarely, if ever, individual. Success depends on entire networks of people who work together to support us. They may lend us an ear, offer advice, or teach us something new! Showing gratitude in science is a powerful way to recognize the importance of this support network and also actively build and maintain that network. Thinking about the ways we have been supported in the past can also show us how we can give back!
+![](projects/mybpc_ind.png)
 
-# Course work
+# Graduate school course work
 ---
 
 ## Multi-strain vaccine selection on a genotype network
@@ -45,6 +45,8 @@ We used an evolutionary algorithm on an _Influenza A_ genotype network to determ
 ## Balancing selection
 
 We created a model to attempt to better understand the mechanisms that give rise to balancing selection in the context of seasonal adaptation in _Drosophila melanogaster_. A rough draft of our manuscript can be found <a href = "projects/season_adapt.pdf" target="_blank">here</a>. Open source code for the model can be found on <a href = "https://github.com/tsoleary/season_adapt" target="_blank">GitHub</a>.
+
+
 
 
 

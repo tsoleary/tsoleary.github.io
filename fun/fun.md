@@ -1,21 +1,33 @@
 ---
 layout: page
 title: Fun
-tagline: ""
+tagline: "Side projects, interests, and community building"
 permalink: /fun.html
 ref: fun
 order: 3
 ---
 
+# Table of Contents
+{:.no_toc}
+
+* ToC
+{:toc}
+
+---
+
+# Running
+
+# Data visualization and coding in R
 
 # Biology Social Committee
----
+
+# Shiny app for baseball stats
 
 ## Gratitude in Science
 
 As part of the Biology Social Committee's initiative to foster an inclusive atmosphere within the UVM Biology Department, we had faculty, students, and staff submit the reasons they had to be thankful in November 2020 — and we used those responses to create a real and virtual Gratitude Tree.
 
-<iframe src="https://streaming.uvm.edu/media/embed/29586/" width="640" height="480" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://streaming.uvm.edu/media/embed/29586/" width="640" height="400" frameborder="0" allowfullscreen></iframe>
 
 Thanksgiving is traditionally a time to take a step back from the day-to-day grind and take a mental inventory of the things for which we are grateful: our family, friends, colleagues, homes, & health. This is especially important in a brutal year like this one – we still have so much to be thankful for.
 

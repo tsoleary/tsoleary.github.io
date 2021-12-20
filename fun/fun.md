@@ -19,9 +19,17 @@ order: 3
 
 # Data visualization and coding in R
 
-# Biology Social Committee
 
-# Shiny app for baseball stats
+
+# Shiny apps
+
+## Baseball
+
+<iframe height="400" width="100%" frameborder="no" src="https://tsoleary.shinyapps.io/baseball/"> </iframe>
+
+## Where in the world should I live
+
+# Biology Social Committee
 
 ## Gratitude in Science
 

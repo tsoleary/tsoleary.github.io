@@ -19,7 +19,7 @@ order: 3
 
 ## World Record Progression
 
-<img src="https://tsoleary.github.io/fun/final_runner_fig.pdf" style="width:100%">
+<embed src="https://tsoleary.github.io/fun/final_runner_fig.pdf" width="100%" />
 
 Andrea Allen, Mahalia Clark, Alison Hall, & I created a <a href="https://tsoleary.github.io/track/world_record_progression/athletics_world_record_progression.html" target="_blank">website</a> to visualize the progression of world records overtime.
 
@@ -39,7 +39,7 @@ Check out the <a href="https://tsoleary.shinyapps.io/baseball/" target="_blank">
 
 ### Where in the US should I live?
 
-<iframe height="800" width="100%" frameborder="no" src="https://tsoleary.shinyapps.io/shiny/"> </iframe>
+<iframe height="900" width="100%" frameborder="no" src="https://tsoleary.shinyapps.io/shiny/"> </iframe>
 
 Check out the <a href="https://tsoleary.shinyapps.io/shiny/" target="_blank">full website</a> and the <a href="https://github.com/tsoleary/gym_class/tree/main/us_counties/shiny" target="_blank">code</a> that built it.
 
@@ -49,7 +49,7 @@ Check out the <a href="https://tsoleary.shinyapps.io/shiny/" target="_blank">ful
 
 As part of the Biology Social Committee's initiative to foster an inclusive atmosphere within the UVM Biology Department, we had faculty, students, and staff submit the reasons they had to be thankful in November 2020 — and we used those responses to create a real and virtual Gratitude Tree.
 
-<iframe height="600" width="100%" frameborder="no" src="https://streaming.uvm.edu/media/embed/29586/" frameborder="0" allowfullscreen></iframe>
+<iframe height="500" width="100%" frameborder="no" src="https://streaming.uvm.edu/media/embed/29586/" frameborder="0" allowfullscreen></iframe>
 
 Thanksgiving is traditionally a time to take a step back from the day-to-day grind and take a mental inventory of the things for which we are grateful: our family, friends, colleagues, homes, & health. This is especially important in a brutal year like this one – we still have so much to be thankful for.
 

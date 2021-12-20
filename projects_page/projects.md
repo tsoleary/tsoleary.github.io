@@ -7,7 +7,10 @@ ref: projects
 order: 1
 ---
 
-* Will be replaced with the ToC
+# Table of Contents
+{:.no_toc}
+
+1. ToC
 {:toc}
 
 # Recent research

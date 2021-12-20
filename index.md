@@ -18,9 +18,9 @@ I received a B.A. in Biology from the University of Vermont in 2016. After gradu
 
 <div class="row">
   <div class="column">
-    <img src="https://tsoleary.github.io/images/dmel_adult.png" alt="fly" style="width:100%">
+    <img src="https://tsoleary.github.io/images/dmel_adult.png" alt="fly" style="width:75%">
   </div>
   <div class="column">
-    <img src="https://tsoleary.github.io/images/embryo.png" alt="embryo" style="width:50%">
+    <img src="https://tsoleary.github.io/images/embryo.png" alt="embryo" style="width:20%">
   </div>
 </div>

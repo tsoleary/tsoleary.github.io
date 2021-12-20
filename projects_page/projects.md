@@ -7,6 +7,7 @@ ref: projects
 order: 1
 ---
 
+* Will be replaced with the ToC
 {:toc}
 
 # Recent research
@@ -34,8 +35,8 @@ This work resulted in a publication in _Frontiers in Genetics_ titled "Integrati
 ## Hypertrophic cardiomyopathy
 
 <div class="row">
-  <img src="https://tsoleary.github.io/projects_page/mybpc_sarc.png" style="width:50%">
-  <img src="https://tsoleary.github.io/projects_page/mybpc_ind.png" alt="fly" style="width:50%">
+  <img src="https://tsoleary.github.io/projects_page/mybpc_sarc.png" style="width:45%">
+  <img src="https://tsoleary.github.io/projects_page/mybpc_ind.png" alt="fly" style="width:45%">
 </div>
 
 # Graduate school course work

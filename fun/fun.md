@@ -19,7 +19,7 @@ order: 3
 
 ## World Record Progression
 
-<embed src="https://tsoleary.github.io/fun/final_runner_fig.pdf" width="100%" height="600px" />
+<img src="https://tsoleary.github.io/fun/final_runner_fig.jpg" width="100%">
 
 Andrea Allen, Mahalia Clark, Alison Hall, & I created a <a href="https://tsoleary.github.io/track/world_record_progression/athletics_world_record_progression.html" target="_blank">website</a> to visualize the progression of world records overtime.
 

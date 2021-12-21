@@ -7,7 +7,7 @@ ref: fun
 order: 3
 ---
 
-# Table of Contents
+# Contents
 {:.no_toc}
 
 * ToC

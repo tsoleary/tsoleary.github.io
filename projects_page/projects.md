@@ -7,7 +7,7 @@ ref: projects
 order: 1
 ---
 
-# Table of Contents
+# Contents
 {:.no_toc}
 
 * ToC

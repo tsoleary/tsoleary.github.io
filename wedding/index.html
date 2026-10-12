@@ -1,0 +1,669 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Thomas &amp; Brit — October 24, 2026</title>
+<meta name="description" content="Thomas and Brit are getting married at a farmhouse on St. Albans Bay. Saturday, October 24, 2026.">
+<meta name="robots" content="noindex, nofollow">
+<meta property="og:title" content="Thomas &amp; Brit — October 24, 2026">
+<meta property="og:description" content="A small wedding on St. Albans Bay. Come be with us.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://tsoleary.github.io/wedding/">
+<meta property="og:image" content="https://tsoleary.github.io/wedding/img/og-card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Thomas and Brit's wedding invitation">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Libre+Franklin:wght@400;500;600;700&display=swap">
+
+<style>
+/* ===========================================================
+   Palette pulled straight out of Brit's drawings:
+   domino navy + cream, lobster red, cat orange, candle pink.
+   =========================================================== */
+:root{
+  color-scheme: light;
+  --paper:#FBF6EB;
+  --paper-2:#F4EDDE;
+  --ink:#1B3C6E;
+  --ink-soft:#4C6895;
+  --faint:#92A3BF;
+  --line:#DED3BD;
+  --line-soft:#EBE2D0;
+  --red:#D4210F;
+  --orange:#E08A12;
+  --pink:#FF9FBE;
+  --card:#FFFCF6;
+  --shade:0 2px 0 rgba(27,60,110,.07), 0 18px 40px -28px rgba(27,60,110,.5);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme: dark;
+    --paper:#111A2B;
+    --paper-2:#17233A;
+    --ink:#F0EADC;
+    --ink-soft:#AEBCD4;
+    --faint:#71839F;
+    --line:#2A3A55;
+    --line-soft:#1E2B42;
+    --red:#F4614C;
+    --orange:#F0A63C;
+    --pink:#FFAFCA;
+    --card:#17233A;
+    --shade:0 2px 0 rgba(0,0,0,.3), 0 18px 40px -28px rgba(0,0,0,.9);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme: dark;
+  --paper:#111A2B;
+  --paper-2:#17233A;
+  --ink:#F0EADC;
+  --ink-soft:#AEBCD4;
+  --faint:#71839F;
+  --line:#2A3A55;
+  --line-soft:#1E2B42;
+  --red:#F4614C;
+  --orange:#F0A63C;
+  --pink:#FFAFCA;
+  --card:#17233A;
+  --shade:0 2px 0 rgba(0,0,0,.3), 0 18px 40px -28px rgba(0,0,0,.9);
+}
+
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+html{overflow-x:hidden}
+body{
+  background:var(--paper);
+  color:var(--ink);
+  font-family:"Libre Franklin",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  font-size:16px;line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+img{max-width:100%;display:block;height:auto}
+
+/* ---------- scattered drawings layer ---------- */
+.scatter{
+  position:absolute;inset:0;
+  pointer-events:none;
+  overflow:hidden;
+  z-index:0;
+}
+/* --drift is set by the scroll handler; CSS owns the rest of the transform */
+.scatter img{
+  position:absolute;
+  width:var(--w);max-width:none;
+  opacity:.5;
+  transform:translate3d(0,var(--drift,0px),0) rotate(var(--r)) scaleX(var(--flip,1));
+  will-change:transform;
+}
+/* Below ~820px the text column eats the margins, so the edge drawings
+   have nowhere to sit — the in-gutter ones below carry it instead. */
+@media (max-width:820px){ .scatter{display:none} }
+
+/* drawings in the gutters between panels — these work at any width */
+.gap{position:relative;height:clamp(154px,32vw,172px);z-index:3}
+.gap img{
+  position:absolute;top:50%;
+  width:var(--w);max-width:none;opacity:.62;
+  transform:translateY(calc(-50% + var(--dy,0px) + var(--drift,0px))) rotate(var(--r)) scaleX(var(--flip,1));
+  will-change:transform;
+}
+.gap .l{left:var(--x,6px)}
+.gap .r{right:var(--x,6px)}
+.gap .c{left:50%;margin-left:calc(var(--w) * -0.5)}
+.gap .only-wide{display:none}
+@media (min-width:700px){
+  .gap .only-wide{display:block}
+  .gap .only-narrow{display:none}
+}
+
+.stage{position:relative}
+@media (max-width:380px){ .sheet{padding-left:16px;padding-right:16px} }
+.sheet{
+  position:relative;z-index:1;
+  max-width:640px;margin:0 auto;
+  padding-left:22px;padding-right:22px;
+  padding-block:clamp(44px,10vw,88px) 80px;
+}
+
+/* ---------- masthead ---------- */
+.nm{position:relative;display:inline-block}
+.nm img{
+  position:absolute;width:108px;max-width:none;
+  pointer-events:none;z-index:2;
+}
+.nm-t img{top:-0.80em;    left:0.02em;  transform:rotate(-13deg)}
+.nm-b img{bottom:-0.20em; right:-1.98em; transform:rotate(15deg)}
+.rule{height:3px;background:var(--ink);margin:0 0 30px;border-radius:2px}
+.names{
+  font-family:"Bricolage Grotesque","Libre Franklin",sans-serif;
+  font-optical-sizing:auto;
+  font-weight:800;
+  font-size:clamp(50px,15vw,96px);
+  line-height:.9;
+  letter-spacing:-.035em;
+  margin:0 0 20px;
+}
+.names .amp{color:var(--red);display:inline-block}
+.when{
+  font-family:"Bricolage Grotesque","Libre Franklin",sans-serif;
+  font-weight:500;
+  font-size:clamp(19px,4.6vw,26px);
+  line-height:1.25;
+  letter-spacing:-.01em;
+  margin:0 0 10px;
+  color:var(--ink);
+}
+.where{
+  font-size:12px;letter-spacing:.17em;text-transform:uppercase;
+  color:var(--ink-soft);font-weight:700;margin:0;
+}
+.cue{
+  margin:46px 0 0;
+  font-size:11px;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--faint);font-weight:700;
+  display:flex;align-items:center;gap:9px;
+}
+.cue svg{flex:none}
+
+/* ---------- comic panels ---------- */
+.panels{margin:34px 0 0;display:flex;flex-direction:column;gap:30px}
+.panel{position:relative}
+.panel img{
+  width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;
+  border-radius:3px;
+  border:3px solid var(--ink);
+  box-shadow:var(--shade);
+  background:var(--paper-2);
+}
+.panel figcaption{
+  position:relative;z-index:4;
+  margin:14px auto 0;
+  max-width:44ch;
+  font-size:15.5px;line-height:1.5;
+  color:var(--ink-soft);
+  text-align:center;text-wrap:pretty;
+}
+@media (max-width:480px){ .panel figcaption{font-size:14.5px;margin-top:12px} }
+.panel{margin:0}
+
+/* reveal — additive, so no-JS and reduced-motion show everything */
+.will-reveal{opacity:0;transform:translateY(26px)}
+.will-reveal.shown{
+  opacity:1;transform:none;
+  transition:opacity .7s cubic-bezier(.2,.7,.3,1), transform .7s cubic-bezier(.2,.7,.3,1);
+}
+
+/* ---------- daylight bar ---------- */
+.light{margin:clamp(46px,9vw,68px) 0 0}
+.light-bar{
+  height:9px;border-radius:99px;border:2px solid var(--ink);
+  background:linear-gradient(90deg,#F0C86A 0%, #E89A3C 34%, #C2683F 56%, #4A5F80 79%, #22304A 100%);
+  margin-bottom:13px;
+}
+.light-marks{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.mark b{
+  display:block;
+  font-family:"Bricolage Grotesque","Libre Franklin",sans-serif;
+  font-size:21px;font-weight:700;letter-spacing:-.02em;
+}
+.mark span{
+  display:block;font-size:10px;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--faint);font-weight:700;margin-top:2px;
+}
+.light-note{margin:15px 0 0;font-size:14px;color:var(--ink-soft);line-height:1.55}
+
+/* ---------- details (click to open) ---------- */
+.more{
+  margin:clamp(40px,8vw,60px) 0 0;
+  border:2.5px solid var(--ink);border-radius:5px;
+  background:var(--card);overflow:hidden;
+}
+.more > summary{
+  list-style:none;cursor:pointer;
+  padding:17px 20px;
+  font-family:"Bricolage Grotesque","Libre Franklin",sans-serif;
+  font-weight:700;font-size:18px;letter-spacing:-.01em;
+  display:flex;align-items:center;justify-content:space-between;gap:12px;
+  color:var(--ink);
+}
+.more > summary::-webkit-details-marker{display:none}
+.more > summary:hover{background:var(--paper-2)}
+.more > summary:focus-visible{outline:3px solid var(--red);outline-offset:-3px}
+.chev{
+  flex:none;width:11px;height:11px;
+  border-right:2.5px solid var(--ink);border-bottom:2.5px solid var(--ink);
+  transform:rotate(45deg) translate(-2px,-2px);
+  transition:transform .2s ease;
+}
+.more[open] .chev{transform:rotate(225deg) translate(-2px,-2px)}
+.more-body{padding:4px 20px 8px;border-top:2.5px solid var(--ink)}
+.row{
+  display:grid;grid-template-columns:104px 1fr;gap:3px 16px;
+  padding:15px 0;border-bottom:1px solid var(--line-soft);
+}
+.row:last-child{border-bottom:0}
+.row dt{
+  font-size:10px;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--faint);font-weight:800;padding-top:4px;
+}
+.row dd{margin:0;font-size:15px;line-height:1.55}
+.row dd em{color:var(--ink-soft);font-style:italic}
+@media (max-width:460px){ .row{grid-template-columns:1fr;gap:3px} }
+
+/* ---------- rsvp ---------- */
+.rsvp{
+  margin:clamp(46px,9vw,68px) 0 0;
+  background:var(--card);
+  border:3px solid var(--ink);border-radius:5px;
+  padding:clamp(22px,5.5vw,34px);
+  box-shadow:var(--shade);
+}
+.rsvp h2{
+  font-family:"Bricolage Grotesque","Libre Franklin",sans-serif;
+  font-weight:800;font-size:clamp(28px,7vw,38px);
+  letter-spacing:-.025em;margin:0 0 6px;line-height:1;
+}
+.rsvp .by{font-size:14px;color:var(--red);font-weight:700;margin:0 0 26px}
+
+.field{margin-bottom:18px}
+label{
+  display:block;font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;
+  font-weight:800;color:var(--ink-soft);margin-bottom:6px;
+}
+label .opt{text-transform:none;letter-spacing:0;font-weight:400;color:var(--faint)}
+input[type=text],input[type=email],select,textarea{
+  width:100%;font-family:inherit;font-size:16px;
+  color:var(--ink);background:var(--paper);
+  border:2px solid var(--line);border-radius:4px;padding:11px 12px;
+  transition:border-color .15s, background .15s;
+}
+textarea{resize:vertical;min-height:74px;line-height:1.5}
+select{
+  appearance:none;-webkit-appearance:none;
+  background-image:linear-gradient(45deg,transparent 50%,var(--ink-soft) 50%),
+                   linear-gradient(135deg,var(--ink-soft) 50%,transparent 50%);
+  background-position:calc(100% - 19px) 52%, calc(100% - 14px) 52%;
+  background-size:5px 5px,5px 5px;background-repeat:no-repeat;padding-right:38px;
+}
+input:focus,select:focus,textarea:focus{
+  outline:none;border-color:var(--ink);background:var(--card);
+}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media (max-width:440px){ .two{grid-template-columns:1fr} }
+
+button{
+  width:100%;font-family:"Bricolage Grotesque","Libre Franklin",sans-serif;
+  font-size:16px;font-weight:700;letter-spacing:.02em;
+  color:var(--paper);background:var(--ink);
+  border:0;border-radius:4px;padding:16px;margin-top:8px;cursor:pointer;
+  transition:opacity .15s,transform .05s;
+}
+button:hover{opacity:.9}
+button:active{transform:translateY(1px)}
+button:disabled{opacity:.5;cursor:default}
+button:focus-visible{outline:3px solid var(--red);outline-offset:2px}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+
+.done{text-align:center;padding:12px 0 4px}
+.done h3{
+  font-family:"Bricolage Grotesque","Libre Franklin",sans-serif;
+  font-weight:800;font-size:32px;margin:0 0 10px;letter-spacing:-.025em;
+}
+.done p{margin:0;color:var(--ink-soft);font-size:15px;line-height:1.6}
+.err{margin:14px 0 0;font-size:14px;color:var(--red);line-height:1.5;font-weight:500}
+
+footer{
+  margin-top:56px;padding-top:26px;border-top:2.5px solid var(--ink);
+  font-size:13px;color:var(--ink-soft);line-height:1.7;text-align:center;
+}
+footer a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line);
+  white-space:nowrap;font-variant-numeric:tabular-nums}
+footer a:hover{color:var(--red);border-bottom-color:var(--red)}
+
+@media (prefers-reduced-motion:reduce){
+  *{transition:none!important;animation:none!important}
+  .will-reveal{opacity:1!important;transform:none!important}
+  .scatter img{transform:rotate(var(--r)) scaleX(var(--flip,1))!important}
+  .gap img{transform:translateY(calc(-50% + var(--dy,0px))) rotate(var(--r)) scaleX(var(--flip,1))!important}
+}
+</style>
+</head>
+<body>
+
+<div class="stage">
+
+  <!-- =====================================================================
+       SCATTERED DRAWINGS. Each one drifts at its own rate as you scroll
+       (data-speed). Swap the src for whatever Brit draws; add or delete
+       freely. --w sets the width, --r the tilt, top/left/right the spot.
+       ===================================================================== -->
+  <div class="scatter" aria-hidden="true">
+    <img src="img/lobster-1.png" alt="" style="--w:230px; --r:-13deg; --flip:-1; top:9%;  right:-78px;" data-speed="-0.13">
+    <img src="img/dom/d14.png" alt="" style="--w:108px; --r:21deg;  top:20%; left:12px;"  data-speed="0.11">
+    <img src="img/lobster-2.png" alt="" style="--w:168px; --r:14deg; top:34%; left:-64px;"  data-speed="0.11">
+    <img src="img/dom/d33.png" alt="" style="--w:108px; --r:-15deg; top:46%; right:12px;" data-speed="-0.12">
+    <img src="img/dom/d36.png" alt="" style="--w:108px; --r:28deg;  top:57%; left:12px;"  data-speed="0.10">
+    <img src="img/lobster-1.png" alt="" style="--w:196px; --r:19deg; --flip:-1; top:68%; right:-70px;" data-speed="0.13">
+    <img src="img/dom/d06.png" alt="" style="--w:108px; --r:-27deg; top:79%; left:12px;"  data-speed="-0.11">
+    <img src="img/dom/d66.png" alt="" style="--w:108px; --r:12deg;  top:89%; right:12px;" data-speed="0.12">
+  </div>
+
+  <main class="sheet">
+
+    <div class="rule"></div>
+
+    <h1 class="names"><span class="nm nm-t"><img src="img/dom/name-55.png" alt="" aria-hidden="true">Thomas</span> <span class="amp">&amp;</span> <span class="nm nm-b"><img src="img/dom/name-46.png" alt="" aria-hidden="true">Brit</span></h1>
+    <p class="when">Saturday, the twenty-fourth of October</p>
+    <p class="where">A farmhouse on St.&nbsp;Albans Bay &middot; Vermont</p>
+
+    <!-- =================================================================
+         THE FOUR PANELS. Replace each src with Brit's artwork when it's
+         ready. Order matters: 1 = the announcement, 2 = how the day goes,
+         3 = parking, 4 = staying over. All four are 4:5 (900x1125).
+         ================================================================= -->
+
+    <div class="panels">
+      <figure class="panel">
+        <img src="img/panel-1.jpg" alt="Thomas and Brit in a window frame with pumpkins below, saying we're getting married" width="900" height="1125">
+        <figcaption>Saturday, 24 OCT 2026. A farmhouse on St. Albans Bay in Georgia, Vermont. Arrive by 3:30&nbsp;pm, ceremony at 4:00&nbsp;pm, and we will begin winding down around 10:00&nbsp;pm.</figcaption>
+      </figure>
+      <div class="gap" aria-hidden="true">
+        <img class="c only-wide"   src="img/dom/run5-1.png"     alt="" style="--w:540px; --r:-3deg;" data-speed="-0.013">
+        <img class="c only-narrow" src="img/dom/run3-narrow.png" alt="" style="--w:324px; --r:-4deg;" data-speed="-0.014">
+      </div>
+
+      <figure class="panel">
+        <img src="img/panel-2.jpg" alt="Two candles standing together on a sprinkle cake, with the words food, drink, dancing, fun" width="900" height="1125" loading="lazy">
+        <figcaption>Outside ceremony! Dress for a Vermont October with layers, &amp; shoes for the grass. There will be a fire out back and music inside.</figcaption>
+      </figure>
+
+      <div class="gap" aria-hidden="true">
+        <img class="l" src="img/dom/run3-2.png" alt="" style="--w:267px; --r:5deg;" data-speed="-0.016">
+        <img class="r" src="img/dom/d13.png" alt="" style="--w:108px; --r:-19deg; --dy:-22px;" data-speed="0.020">
+      </div>
+
+      <figure class="panel">
+        <img src="img/panel-3.jpg" alt="It's the Great Parking, Charlie Brown — a just-married truck in a pumpkin patch under a full moon, a black cat on the roof" width="900" height="1125" loading="lazy">
+        <figcaption>There are only six parking spots. If you are staying over, we will have you park nearby and shuttle you over. If you are driving home after, you may get a spot at the house. Please RSVP with your plans, and we will be in touch with the details soon.</figcaption>
+      </figure>
+
+      <div class="gap" aria-hidden="true">
+        <img class="l" src="img/dom/run3-3.png" alt="" style="--w:267px; --r:-5deg;" data-speed="-0.015">
+        <img class="r" src="img/lobster-2.png" alt="" style="--w:92px; --r:-16deg; --dy:46px;" data-speed="0.020">
+      </div>
+
+      <figure class="panel">
+        <img src="img/panel-4.jpg" alt="A made bed beneath a framed sign saying you're welcome to stay over with us" width="900" height="1125" loading="lazy">
+        <figcaption>There are beds for 12 and room on the floor with a sleeping bag or air mattress for more. We will have coffee and bagels in the morning and need to be out the door by 10:00&nbsp;am.</figcaption>
+      </figure>
+
+      <div class="gap" aria-hidden="true">
+        <img class="l" src="img/dom/run2-4.png" alt="" style="--w:216px; --r:8deg;" data-speed="-0.017">
+        <img class="r" src="img/dom/d00.png" alt="" style="--w:108px; --r:-23deg; --dy:-24px;" data-speed="0.021">
+      </div>
+    </div>
+
+
+    <!-- Daylight schedule bar — parked for now, drop the comment markers to bring it back.
+    <section class="light" aria-label="Schedule">
+      <div class="light-bar" role="presentation"></div>
+      <div class="light-marks">
+        <div class="mark"><b>3:30</b><span>Arrive</span></div>
+        <div class="mark"><b>4:00</b><span>Ceremony</span></div>
+        <div class="mark"><b>5:45</b><span>Sunset</span></div>
+        <div class="mark"><b>6:00</b><span>Dinner</span></div>
+      </div>
+      <p class="light-note">
+        The light goes fast in late October — come a little early so we start on time
+        and still have the good light for the vows.
+      </p>
+    </section>
+    -->
+
+    <details class="more">
+      <summary>Full details<span class="chev" aria-hidden="true"></span></summary>
+      <div class="more-body">
+        <dl>
+          <div class="row">
+            <dt>Where</dt>
+            <dd>A private farmhouse on St. Albans Bay, about 35 minutes north of Burlington.
+              <em>We'll send the exact address and directions when you RSVP.</em></dd>
+          </div>
+          <div class="row">
+            <dt>Parking</dt>
+            <dd>There are only six parking spots. If you are staying over, we will have you
+              park nearby and shuttle you over. If you are driving home after, you may get a
+              spot at the house. <em>Please RSVP with your plans, and we will be in touch with
+              the details soon.</em></dd>
+          </div>
+          <div class="row">
+            <dt>What to wear</dt>
+            <dd>Whatever makes you feel good, with <strong>warm layers</strong> and shoes for
+              standing in the grass. The ceremony is outside by the lake (low fifties and
+              dropping). If you've been saving something for an occasion, use this as the
+              occasion. If you'd rather be comfy, be comfy. Bring a change of clothes if you
+              want.</dd>
+          </div>
+          <div class="row">
+            <dt>Food &amp; drink</dt>
+            <dd>We will provide Indian food for dinner, plus cake and drinks. Come hungry.
+              Tell us below if there's anything you can't eat.</dd>
+          </div>
+          <div class="row">
+            <dt>Staying over</dt>
+            <dd>There are beds for 12 and room on the floor with a sleeping bag or air mattress
+              for more. We will have coffee and bagels in the morning and need to be out the
+              door by 10:00&nbsp;am. <em>Tell us on the RSVP and we'll sort out who's where.</em></dd>
+          </div>
+          <div class="row">
+            <dt>Kids</dt>
+            <dd>Very welcome.</dd>
+          </div>
+          <div class="row">
+            <dt>Gifts</dt>
+            <dd>Just being there is a gift for us. Please don't bring anything else.</dd>
+          </div>
+        </dl>
+      </div>
+    </details>
+
+      <div class="gap" aria-hidden="true">
+        <img class="l" src="img/dom/run2-5.png" alt="" style="--w:216px; --r:-6deg;" data-speed="-0.016">
+        <img class="r" src="img/dom/run2-7.png" alt="" style="--w:159px; --r:9deg; --dy:-44px;" data-speed="0.018">
+      </div>
+
+    <section class="rsvp" id="rsvp">
+      <h2>Will you come?</h2>
+      <p class="by">Please let us know by Sunday, October 18</p>
+
+      <form id="rsvp-form" action="https://formspree.io/f/xljglarq" method="POST">
+        <input type="hidden" name="_subject" value="Wedding RSVP">
+        <div class="hp" aria-hidden="true">
+          <label for="_gotcha">Leave this empty</label>
+          <input type="text" name="_gotcha" id="_gotcha" tabindex="-1" autocomplete="off">
+        </div>
+
+        <div class="field">
+          <label for="guest-name">Your name<span class="opt"> — and anyone you're replying for</span></label>
+          <input type="text" id="guest-name" name="Name" required autocomplete="name">
+        </div>
+
+        <div class="field">
+          <label for="guest-email">Email<span class="opt"> — so we can send the address</span></label>
+          <input type="email" id="guest-email" name="Email" required autocomplete="email">
+        </div>
+
+        <div class="field">
+          <label for="attending">Can you make it?</label>
+          <select id="attending" name="Attending" required>
+            <option value="">Choose one</option>
+            <option value="Yes, wouldn't miss it">Yes, wouldn't miss it</option>
+            <option value="Sadly no">Sadly, no</option>
+            <option value="Not sure yet">Not sure yet</option>
+          </select>
+        </div>
+
+        <div class="two">
+          <div class="field">
+            <label for="adults">Adults</label>
+            <select id="adults" name="Adults">
+              <option value="1">1</option><option value="2">2</option>
+              <option value="3">3</option><option value="4">4</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="kids">Kids</label>
+            <select id="kids" name="Kids">
+              <option value="0">0</option><option value="1">1</option>
+              <option value="2">2</option><option value="3">3</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="overnight">Staying overnight?<span class="opt"> &mdash; beds for twelve, floor for more</span></label>
+          <select id="overnight" name="Staying overnight">
+          <option value="">Choose one</option>
+          <option value="Staying over - I'd like a bed">Staying over &mdash; I'd like a bed</option>
+          <option value="Staying over - floor is okay">Staying over &mdash; floor is okay with a sleeping bag / air mattress</option>
+          <option value="Staying over - either is fine">Staying over &mdash; either is fine</option>
+          <option value="Heading home that night">Heading home that night</option>
+          <option value="Not sure yet">Not sure yet</option>
+        </select>
+        </div>
+
+        <div class="field">
+          <label for="dietary">Anything you can't eat?<span class="opt"> — allergies, vegetarian, etc.</span></label>
+          <input type="text" id="dietary" name="Dietary" placeholder="Or leave blank">
+        </div>
+
+        <div class="field">
+          <label for="note">Anything else<span class="opt"> — optional</span></label>
+          <textarea id="note" name="Note"></textarea>
+        </div>
+
+        <button type="submit" id="submit-btn">Send our RSVP</button>
+        <p class="err" id="form-error" hidden></p>
+      </form>
+
+      <div class="done" id="thanks" hidden>
+        <h3>Thank you</h3>
+        <p>We've got it, and we're so glad. We'll be in touch with the address,
+          directions and where to meet for the drive out.</p>
+      </div>
+    </section>
+
+      <div class="gap" aria-hidden="true">
+        <img class="l" src="img/dom/run2-6.png" alt="" style="--w:216px; --r:7deg;" data-speed="-0.017">
+        <img class="r" src="img/dom/d44.png" alt="" style="--w:108px; --r:24deg; --dy:-42px;" data-speed="0.021">
+      </div>
+
+    <footer>
+      Questions? Get hold of us any time.<br>
+      Thomas <a href="tel:+16039188302">603-918-8302</a> &middot;
+      Brit <a href="tel:+14129771578">412-977-1578</a><br>
+      Thomas &amp; Brit &middot; October 2026
+    </footer>
+
+  </main>
+</div>
+
+<script>
+(function(){
+  var reduce = window.matchMedia &&
+               window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* ---- panels rise in as you reach them ---- */
+  if(!reduce && 'IntersectionObserver' in window){
+    var panels = [].slice.call(document.querySelectorAll('.panel'));
+    panels.forEach(function(p, i){
+      if(i === 0) return;            // first one is visible at rest
+      p.classList.add('will-reveal');
+    });
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if(e.isIntersecting){
+          e.target.classList.add('shown');
+          io.unobserve(e.target);
+        }
+      });
+    }, { rootMargin: '0px 0px -12% 0px', threshold: 0.08 });
+    panels.forEach(function(p){ if(p.classList.contains('will-reveal')) io.observe(p); });
+  }
+
+  /* ---- drawings drift at their own speeds ---- */
+  if(!reduce){
+    var bits = [].slice.call(document.querySelectorAll('.scatter img, .gap img'));
+    var ticking = false, anchors = [];
+
+    /* Cache each drawing's untransformed position once, so drift stays a
+       small local offset instead of accumulating with total page scroll. */
+    function measure(){
+      var y = window.pageYOffset || document.documentElement.scrollTop;
+      anchors = bits.map(function(el){
+        el.style.setProperty('--drift', '0px');
+        var r = el.getBoundingClientRect();
+        return { el: el,
+                 mid: r.top + y + r.height / 2,
+                 speed: parseFloat(el.getAttribute('data-speed')) || 0 };
+      });
+    }
+
+    function place(){
+      var y  = window.pageYOffset || document.documentElement.scrollTop;
+      var vh = window.innerHeight || 800;
+      for(var i = 0; i < anchors.length; i++){
+        var a = anchors[i];
+        a.el.style.setProperty('--drift',
+          ((a.mid - y - vh / 2) * a.speed).toFixed(1) + 'px');
+      }
+      ticking = false;
+    }
+
+    function queue(){
+      if(!ticking){ ticking = true; window.requestAnimationFrame(place); }
+    }
+
+    window.addEventListener('scroll', queue, { passive: true });
+    window.addEventListener('resize', function(){ measure(); queue(); });
+    window.addEventListener('load', function(){ measure(); place(); });
+    measure(); place();
+  }
+
+  /* ---- rsvp ---- */
+  var form   = document.getElementById('rsvp-form');
+  var btn    = document.getElementById('submit-btn');
+  var thanks = document.getElementById('thanks');
+  var errEl  = document.getElementById('form-error');
+  if(!form) return;
+
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    errEl.hidden = true;
+    btn.disabled = true;
+    btn.textContent = 'Sending…';
+
+    fetch(form.action, {
+      method:'POST', body:new FormData(form), headers:{ 'Accept':'application/json' }
+    }).then(function(res){
+      if(!res.ok) throw new Error('rejected');
+      form.hidden = true;
+      thanks.hidden = false;
+      thanks.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block:'center' });
+    }).catch(function(){
+      btn.disabled = false;
+      btn.textContent = 'Send our RSVP';
+      errEl.textContent = "That didn't go through — sorry. Try once more, or just text us instead.";
+      errEl.hidden = false;
+    });
+  });
+})();
+</script>
+</body>
+</html>

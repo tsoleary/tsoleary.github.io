@@ -6,6 +6,8 @@
 <title>Thomas &amp; Brit — October 24, 2026</title>
 <meta name="description" content="Thomas and Brit are getting married at a farmhouse on St. Albans Bay. Saturday, October 24, 2026.">
 <meta name="robots" content="noindex, nofollow">
+<meta name="color-scheme" content="light only">
+<meta name="theme-color" content="#FBF6EB">
 <meta property="og:title" content="Thomas &amp; Brit — October 24, 2026">
 <meta property="og:description" content="A small wedding on St. Albans Bay. Come be with us.">
 <meta property="og:type" content="website">
@@ -26,7 +28,7 @@
    domino navy + cream, lobster red, cat orange, candle pink.
    =========================================================== */
 :root{
-  color-scheme: light;
+  color-scheme: light only;
   --paper:#FBF6EB;
   --paper-2:#F4EDDE;
   --ink:#1B3C6E;
@@ -40,38 +42,8 @@
   --card:#FFFCF6;
   --shade:0 2px 0 rgba(27,60,110,.07), 0 18px 40px -28px rgba(27,60,110,.5);
 }
-@media (prefers-color-scheme: dark){
-  :root:not([data-theme="light"]){
-    color-scheme: dark;
-    --paper:#111A2B;
-    --paper-2:#17233A;
-    --ink:#F0EADC;
-    --ink-soft:#AEBCD4;
-    --faint:#71839F;
-    --line:#2A3A55;
-    --line-soft:#1E2B42;
-    --red:#F4614C;
-    --orange:#F0A63C;
-    --pink:#FFAFCA;
-    --card:#17233A;
-    --shade:0 2px 0 rgba(0,0,0,.3), 0 18px 40px -28px rgba(0,0,0,.9);
-  }
-}
-:root[data-theme="dark"]{
-  color-scheme: dark;
-  --paper:#111A2B;
-  --paper-2:#17233A;
-  --ink:#F0EADC;
-  --ink-soft:#AEBCD4;
-  --faint:#71839F;
-  --line:#2A3A55;
-  --line-soft:#1E2B42;
-  --red:#F4614C;
-  --orange:#F0A63C;
-  --pink:#FFAFCA;
-  --card:#17233A;
-  --shade:0 2px 0 rgba(0,0,0,.3), 0 18px 40px -28px rgba(0,0,0,.9);
-}
+/* Light only, on purpose: the panels are drawn on cream, so the page
+   is the same paper they are. No dark palette. */
 
 *{box-sizing:border-box}
 html,body{margin:0;padding:0}

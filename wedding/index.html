@@ -12,7 +12,7 @@
 <meta property="og:description" content="A small wedding on St. Albans Bay. Come be with us.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://tsoleary.github.io/wedding/">
-<meta property="og:image" content="https://tsoleary.github.io/wedding/img/og-card.jpg">
+<meta property="og:image" content="https://tsoleary.github.io/wedding/img/og-card-2.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Thomas and Brit's wedding invitation">
@@ -81,14 +81,20 @@ img{max-width:100%;display:block;height:auto}
 .gap{position:relative;height:clamp(154px,32vw,172px);z-index:3}
 .gap img{
   position:absolute;top:50%;
-  width:var(--w);max-width:none;opacity:.62;
+  width:calc(var(--w) * var(--k,1));max-width:none;opacity:.62;
   transform:translateY(calc(-50% + var(--dy,0px) + var(--drift,0px))) rotate(var(--r)) scaleX(var(--flip,1));
   will-change:transform;
 }
 .gap .l{left:var(--x,6px)}
 .gap .r{right:var(--x,6px)}
-.gap .c{left:50%;margin-left:calc(var(--w) * -0.5)}
+.gap .c{left:50%;margin-left:calc(var(--w) * var(--k,1) * -0.5)}
 .gap .only-wide{display:none}
+/* --k shrinks the whole scatter on narrow screens so the runs and the
+   single tiles beside them stop colliding. */
+.gap{--k:1}
+@media (max-width:520px){ .gap{--k:.88} }
+@media (max-width:430px){ .gap{--k:.76} }
+@media (max-width:360px){ .gap{--k:.66} }
 @media (min-width:700px){
   .gap .only-wide{display:block}
   .gap .only-narrow{display:none}
@@ -452,7 +458,7 @@ footer a:hover{color:var(--red);border-bottom-color:var(--red)}
 
     <section class="rsvp" id="rsvp">
       <h2>Will you come?</h2>
-      <p class="by">Please let us know by Sunday, October 18</p>
+      <p class="by">Please let us know by Friday, October 16</p>
 
       <form id="rsvp-form" action="https://formspree.io/f/xljglarq" method="POST">
         <input type="hidden" name="_subject" value="Wedding RSVP">
